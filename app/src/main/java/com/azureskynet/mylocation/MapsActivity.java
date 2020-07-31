@@ -6,6 +6,7 @@ import androidx.fragment.app.FragmentActivity;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
+import android.widget.TextView;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
@@ -28,6 +29,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
     private GoogleMap mMap;
     GoogleApiClient googleApiClient;
+    TextView tv;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
